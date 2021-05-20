@@ -63,4 +63,6 @@ nav{
 
 .page-content{
 	background: var(--white);
+	width:100%;
+	padding: 50px;
 }
