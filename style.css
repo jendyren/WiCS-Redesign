@@ -1,0 +1,9 @@
+body{
+	background-color: pink;
+}
+
+@media(min-width: 992px){
+	.navbar-expand-lg .navbar-collapse{
+		width:100%;
+	}
+}
