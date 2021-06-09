@@ -1,6 +1,6 @@
 :root {
   --blue: #27A1CE;
-	--black: #343131;
+	--black: #151518;
 	--white: white;
 }
 *{
@@ -48,13 +48,6 @@ nav{
 	padding-top: 70px
 }
 
-.btn:not(:disabled):not(.disabled) {
-  cursor: pointer;
-  background: none;
-}
-.btn{
-	transition: all 1s;
-}
 
 .text h1{
 	color: var(--white);
@@ -67,32 +60,90 @@ nav{
 .page-content{
 	background: var(--white);
 	width:100%;
-	padding: 50px;
+	
 }
 h3 {
     font-size: 1.75rem;
     font-weight: 700;
-	text-decoration: underline 5px;
+	padding: 0 50px;
     color: var(--blue);
 }
 p{
-	font-size: 17px;
-	padding: 0 50px;
+	font-size: 20px;
+	padding: 0 0 0 50px;
+}
+.row{
+	margin-top: 50px;
+	margin-right: 0;
 }
 .column {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	float: left;
 	width: 50%;
 }
+
+.left-column{
+	padding-left: 70px;
+}
+.right-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-column img{
+	width:60%;
+	border-radius: 25px;
+}
+
+.right-column p{
+	padding-top: 10px;
+	font-size: 14px;
+}
+
 /* Clear floats after the columns */
 .row:after {
 content: "";
 display: table;
 clear: both;
 }
+
+.divider{
+	background-color: var(--blue);
+	padding: 50px 55px;
+	margin: 50px 0;
+}
+
+.divider h3{
+	color:var(--white);
+	margin: 20px 0;
+}
+
+.post{
+	background-color: var(--white);
+	margin-left: 50px;
+	padding: 25px 25px 9px 25px;
+}
+
+.post h4{
+	color: var(--blue);
+	font-weight: 700;
+}
+
+.post h6{
+	color: var(--blue);
+	font-weight: 600;
+}
+
+.post p{
+	font-size: 16px;
+	padding: 0;
+}
+
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -102,3 +153,58 @@ clear: both;
 }
 
 /*Content CSS*/
+
+
+/*Footer CSS*/
+footer{
+	display: flex;
+	flex-flow: row wrap;
+	padding:50px;
+	color: var(--blue);
+	background-color: var(--white);
+}
+
+.footer > *{
+	flex: 1 100%;
+}
+
+.footer-left{
+	margin-right: 1.25 em;
+	margin-bottom: 2em;
+}
+
+.footer-left img{
+	
+}
+
+.footer h2{
+	font-weight: 600;
+	font-size: 17px;
+	color: var(--black)
+}
+
+.footer ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+.footer li{
+	line-height: 2em;
+}
+.footer a{
+	text-decoration: none;
+}
+.footer-right{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.footer-right > *{
+	flex: 1 50%;
+	margin-right: 1.25 em;
+
+}
+
+.box a{
+	color: var(--blue)
+}
