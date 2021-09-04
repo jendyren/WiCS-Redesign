@@ -1,7 +1,9 @@
 :root {
-  --blue: #27A1CE;
+  	--blue: #27A1CE;
+	--darkblue: #117499;
 	--black: #343131;
 	--white: white;
+
 }
 *{
 	box-sizing: border-box;
@@ -71,7 +73,15 @@ h3 {
     font-size: 1.75rem;
     font-weight: 700;
     color: var(--blue);
+	margin: 20px 0px 20px 150px;
 }
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--blue);
+}
+
 p{
 	font-size: 1em;
 	padding: 0 0 0 50px;
@@ -114,11 +124,16 @@ clear: both;
 
 .divider{
 	background-color: var(--blue);
-	padding: 50px 55px;
+    padding: 50px 0px;
 	margin: 50px 0;
 }
 
 .divider h3{
+	color:var(--white);
+	margin: 20px 0px 20px 150px;
+}
+
+.divider h4{
 	color:var(--white);
 	margin: 20px 0;
 }
@@ -154,7 +169,7 @@ clear: both;
 	border-radius: 10px
 }
 .ct-blog .inner:hover {
-    background-color: #5e75b1;
+    background-color: var(--darkblue);
 }
 .ct-blog .fauxcrop {
     height: 180px;
@@ -212,35 +227,9 @@ clear: both;
 .btn-news.btn-contests a:hover {
     color: var(--black);
 }
-
 /* Annoucements */
 
-/* .announcement-content{
-	margin-left: 100px;
-	margin-right: 125px;
-}
-
-.post{
-	background-color: var(--white);
-	padding: 25px 25px 9px 25px;
-	border-radius: 15px;
-}
-
-.post h4{
-	color: var(--blue);
-	font-weight: 700;
-}
-
-.post h6{
-	color: var(--blue);
-	font-weight: 600;
-}
-
-.post p{
-	font-size: 16px;
-	padding: 0;
-} */
-
+/* Upcoming Events */
 .upcoming-events{
     display:flex;
     flex-direction: row;
@@ -262,6 +251,7 @@ clear: both;
 
 .event-img{
 	border-radius: 15px;
+	width: 400px;
 }
 
 .event-content{
@@ -432,6 +422,9 @@ footer .container h6{
 	color: var(--black);
 }
 
+.footer-logo{
+	width: 200px;
+}
 @media (max-width: 991px){
 	footer{
 		padding: 40px;
