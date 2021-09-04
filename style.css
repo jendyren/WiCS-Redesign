@@ -42,7 +42,7 @@ nav{
 
 /*Header CSS*/
 .header-container{
-	background-image: url(./assets/headerImg.png);
+	background-image: url(./images/global/headerImg.png);
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
@@ -124,14 +124,17 @@ clear: both;
 }
 
 /* Annoucements */
+.container{
+	max-width:75%;
+}
 .annoucements {
-    background-color: #CCE5F7;
+    background-color: var(--white);
 }
 .annoucements .news-title {
     padding-top:30px;
     padding-bottom:30px;
-    color: #5e75b1;
-	text-align: center;
+    color: var(--blue);
+	
 }
 .annoucements .row {
     display: flex;
@@ -143,7 +146,7 @@ clear: both;
     margin-bottom: 30px;
 }
 .ct-blog .inner {
-    background-color: #4E6398;
+    background-color: var(--blue);
     padding: 10px;
     transition: all 0.2s ease-in-out 0s;
     cursor: pointer;
@@ -164,10 +167,10 @@ clear: both;
 .ct-blog-content {
     display: table;
     padding: 30px 0 28px;
-	background-color: #CCE5F7;
+	background-color: var(--white);
 }
 .ct-blog-content .ct-blog-date {
-    border-right: 1px solid #5e75b1;
+    border-right: 1px solid var(--blue);
     display: table-cell;
     font-family: "Lato", sans-serif;
     padding: 0px 18px 0px 15px;
@@ -175,17 +178,17 @@ clear: both;
 }
 .ct-blog-content .ct-blog-date span {
     font-size: 16px;
-    color: #5e75b1;
+    color: var(--blue);
     font-weight: 700;
     display: block;
     line-height: 1;
 }
 .ct-blog-content .ct-blog-date strong {
     font-size: 25px;
-    color: #5e75b1;
+    color: var(--blue);
 }
 .ct-blog-content .ct-blog-header {
-    color: #5e75b1;
+    color: var(--blue);
     display: table-cell;
     font-size: 22px;
     font-weight: 700;
@@ -239,7 +242,26 @@ clear: both;
 } */
 
 .upcoming-events{
-	margin: 20px 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:25rem;
+    min-width:18rem;
+    margin: 22.5px;
+    text-align: center;
+}
+
+.event-img{
+	border-radius: 15px;
 }
 
 .event-content{
