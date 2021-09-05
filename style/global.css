@@ -65,7 +65,11 @@ p{
 .divider{
     background-color: var(--blue);
     padding: 50px 0px;
-    margin: 50px 0;
+    margin: 10px 0;
+}
+
+.divider-img{
+    width: 100%;
 }
 
 .divider h3{
@@ -82,10 +86,9 @@ p{
 footer{
     position: relative;
     width: 100%;
-    height: auto;
-    padding: 25px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: var(--white);
 }
@@ -181,7 +184,7 @@ footer .container h6{
 }
 
 .contact{
-    width: calc(35% - 60px);
+    width: calc(35% - 100px);
     margin-right: 0 !important;
 }
 

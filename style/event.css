@@ -1,13 +1,21 @@
-.divider h3{
-    color:var(--white);
+.divider{
+    background-color: var(--blue);
+    padding: 20px 0px;
+    margin: 0;
+}
+
+h3{
+    color:var(--blue);
     margin-left: 8%;
     text-align: left;
+}
+.divider-img{
+    width: 100%;
 }
 
 
 .content{
     margin: auto;
-    padding-top: 70px;
     text-align: center
 }
 
@@ -55,7 +63,7 @@
 
 .event-title {
     font-size: 30px;
-    color: var(--white);
+    color: var(--blue);
     text-align: center;
     font-weight: bold;
     padding-top: 20px;
@@ -63,10 +71,11 @@
   
 .event-desc {
     padding: 10px;
-    text-align: center;
-    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+    font-weight: 500;
     font-size: 18px;
-    
 }
 
 /*add this it*/
@@ -80,6 +89,14 @@ div.event-image img {
     border-radius: 25px;
     width: 25%;
     height: auto;
+    box-shadow: 3px 4px 2px #ccc;
+}
+
+hr.solid-line {
+    margin: 2% auto;
+    border-top: 3px solid var(--blue);
+    width: 100px;
+    
 }
 
   
