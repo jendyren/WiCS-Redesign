@@ -1,0 +1,103 @@
+.divider h3{
+    color:var(--white);
+    margin-left: 8%;
+    text-align: left;
+}
+
+
+.content{
+    margin: auto;
+    padding-top: 70px;
+    text-align: center
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 100px;
+}
+
+.flex-left {
+    width: 40%;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.flex-right {
+    width: 60%;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid green;
+    text-align: left;
+}
+
+.float-layout {
+    padding: 5px 5px;
+    float: left;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0;
+}
+  
+.event-container {
+    overflow: hidden;
+    margin: 2% 5%;
+}
+  
+.event {
+    min-height: 100%; /*replace this it in width: 100%*/
+    width: 55%;
+    float: right;
+}
+
+.event-title {
+    font-size: 30px;
+    color: var(--white);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+  
+.event-desc {
+    padding: 10px;
+    text-align: center;
+    color: var(--white);
+    font-size: 18px;
+    
+}
+
+/*add this it*/
+.event-image {
+    display: flex;
+    justify-content: space-evenly;
+}
+/*-------------*/
+
+div.event-image img {
+    border-radius: 25px;
+    width: 25%;
+    height: auto;
+}
+
+  
+/* Phone Devices Query */
+@media only screen and (max-width: 37.5em) {
+    div.event-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*add this it*/
+    .event-image {
+        flex-direction: column;
+    }
+    /*----------------------*/
+
+    .event {
+        width: 100%;
+        margin-top: -4px;
+    }
+}

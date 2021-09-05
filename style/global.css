@@ -16,11 +16,13 @@ html{
 }
 
 body{
-
   align-items: center;
 }
 
 /*Navigation Bar CSS*/
+.nav-logo{
+    width: 113px;
+}
 nav{
   font-weight: 600;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
@@ -41,23 +43,202 @@ color: var(--blue);
 }
 /*Navigation Bar CSS*/
 
-/*Header CSS*/
-.header-container{
-  background-image: url(/images/global/headerImg.png);
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 70px
+/* Headings */
+h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-left: 14%;
+    color: var(--blue);
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--blue);
+}
+
+p{
+    font-size: 1em;
+    padding: 0 0 0 50px;
+}
+
+.divider{
+    background-color: var(--blue);
+    padding: 50px 0px;
+    margin: 50px 0;
+}
+
+.divider h3{
+    color:var(--white);
+}
+
+.divider h4{
+    color:var(--white);
+    margin: 20px 0;
 }
 
 
-.text h1{
-  color: var(--white);
-  text-shadow: 2px 2px 10px var(--black);
-  text-align: center;
+/*Footer CSS*/
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 25px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--white);
 }
-/*Header CSS*/
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .container .sec{
+    margin-right: 30px;
+}
+
+footer .container .sec.info{
+    width: 40%;
+}
+
+footer .container h5{
+    position: relative;
+    color: var(--black);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer .container h5:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+}
+
+footer .container h6{
+    position: relative;
+    color: var(--black);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.sci{
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.sci li a:hover{
+    background: var(--white);
+}
+
+.sci li a .fa{
+    color: var(--white);
+    font-size: 20px;
+}
+
+.quickLinks{
+    position: relative;
+    width: 25%;
+}
+
+.quickLinks ul li{
+    list-style: none;
+}
+
+.quickLinks ul li a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: var(--blue);
+}
+
+.quickLinks ul li a:hover{
+    color: var(--black);
+}
+
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info{
+    position: relative;
+}
+
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1){
+    color: var(--blue);
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span{
+    color: var(--blue);
+}
+
+.contact .info li span a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+.contact .info li span a:hover{
+    color: var(--black);
+}
+
+.footer-logo{
+    width: 150px;
+}
+
+@media (max-width: 991px){
+    footer{
+        padding: 40px;
+    }
+    footer .container{
+        flex-direction: column;
+    }
+
+    footer .container .sec{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .container .sec.info{
+        width: 100%
+    }
+
+    .quickLinks{
+        width: 100%;
+    }
+
+    .contact{ 
+        width: 100%;
+    }
+}
