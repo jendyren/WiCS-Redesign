@@ -61,9 +61,6 @@ clear: both;
 }
 
 /* Annoucements */
-.container{
-  max-width:75%;
-}
 .annoucements {
   background-color: var(--white);
 }
