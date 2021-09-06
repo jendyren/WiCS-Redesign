@@ -63,12 +63,12 @@ clear: both;
 /* Annoucements */
 .annoucements {
   background-color: var(--white);
+  margin-bottom: 30px;
 }
 .annoucements .news-title {
-  padding-top:30px;
-  padding-bottom:30px;
-  color: var(--blue);
-  
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: var(--blue);
 }
 .annoucements .row {
   display: flex;
@@ -171,6 +171,7 @@ clear: both;
 .event-img{
   border-radius: 15px;
   width: 400px;
+  box-shadow: 3px 4px 2px var(--darkblue);
 }
 
 .event-content{

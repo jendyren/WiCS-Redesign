@@ -45,10 +45,9 @@ nav{
 
 /* Headings */
 hr.solid-line {
-    margin: 2% auto;
+    margin: 0% auto;
     border-top: 3px solid var(--blue);
     width: 100px;
-    
 }
 
 h3 {

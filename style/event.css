@@ -6,13 +6,9 @@
 
 h3{
     color:var(--blue);
-    margin-left: 8%;
-    text-align: left;
+    margin-left: 0;
+    text-align: center;
 }
-.divider-img{
-    width: 100%;
-}
-
 
 .content{
     margin: auto;
@@ -90,13 +86,6 @@ div.event-image img {
     width: 25%;
     height: auto;
     box-shadow: 3px 4px 2px #ccc;
-}
-
-hr.solid-line {
-    margin: 2% auto;
-    border-top: 3px solid var(--blue);
-    width: 100px;
-    
 }
 
   

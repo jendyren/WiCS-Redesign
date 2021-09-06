@@ -18368,6 +18368,7 @@ a.pswp__share--download:hover {
 .u-list:not(.u-repeater) .u-repeater,
 .u-blog:not(.u-repeater) .u-repeater,
 .u-products:not(.u-repeater) .u-repeater {
+  color: var(--darkblue);
   flex: 1;
 }
 .u-list:not(.u-repeater) .u-list-control,
@@ -24525,7 +24526,7 @@ a.u-link.u-hover-grey-light-3:hover {
 .u-container-style.u-white:before,
 .u-container-layout.u-white:before,
 .u-table-alt-white tr:nth-child(even) {
-  color: #111111;
+  color: var(--blue);
   background-color: #ffffff;
 }
 .u-button-style.u-white,
