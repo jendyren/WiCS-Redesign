@@ -87,6 +87,11 @@ clear: both;
   height: 100%;
   border-radius: 10px
 }
+
+.ct-blog .inner a{
+  text-decoration: none;
+}
+
 .ct-blog .inner:hover {
   background-color: var(--darkblue);
 }

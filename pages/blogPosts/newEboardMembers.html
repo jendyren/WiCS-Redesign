@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="/style/global.css" rel="stylesheet" type="text/css"/>
+    <link href="/style/blogPosts.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SBU - WiCS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #cindy {
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #kayla {
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #sammi {
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #ashley {
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #tina {
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #christina {
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #sabrina {
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #jenny {
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #jendy {
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+
+        #myImg:hover {
+            opacity: 0.7;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            padding-top: 170px;
+            /* Location of the box */
+            padding-bottom: 120px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.9);
+            /* Black w/ opacity */
+        }
+
+        /* Modal Content (image) */
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 30%;
+            max-width: 700px;
+        }
+
+        /* Caption of Modal Image */
+        #caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            
+        }
+
+        /* Add Animation */
+        .modal-content,
+        #caption {
+            -webkit-animation-name: zoom;
+            -webkit-animation-duration: 0.6s;
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @-webkit-keyframes zoom {
+            from {
+                -webkit-transform: scale(0)
+            }
+
+            to {
+                -webkit-transform: scale(1)
+            }
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(0)
+            }
+
+            to {
+                transform: scale(1)
+            }
+        }
+
+        /* The Close Button */
+        .close {
+            position: absolute;
+            top: 120px;
+            right: 25%;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* 100% Image Width on Smaller Screens */
+        @media only screen and (max-width: 700px) {
+            .modal-content {
+                width: 100%;
+            }
+            /* The Close Button */
+            .close {
+                right: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Beginning of Navigation Bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white ">
+        <!-- Left Side -->
+        <div class="navbar-collapse collapse order-lg-1 order-3 navigation-menu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/awards.html">Awards</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Left Side -->	
+        <a class="navbar-brand order-1 mr-lg-0" href="#">
+            <img src="/images/global/largeLogo.png" class="nav-logo">
+        </a>
+        <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target=".navigation-menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Right Side -->
+        <div class="navbar-collapse collapse order-lg-3 order-4 navigation-menu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/sponsors.html">Sponsors</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/pages/blog.html">Blog</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- Right Side -->
+        
+    </nav>
+    <!-- End of Navigation Bar -->
+    <div class="eboard-content"> 
+        <img src="/images/global/downDivider.png" alt="divider" class="divider-img">
+        <br><br>
+        <h3>Meet the new 2021-2022 Eboard Members!</h3>
+        <p>Click on each member to learn more!</p>
+        <br>
+
+        <img id="cindy" src="https://media.discordapp.net/attachments/754473898153607242/876233332357230632/wics_cindy.png"
+        alt="Cindy is a sophomore pursuing Computer Science and have a strong interest in front-end web development. On campus, she works as a student consultant for the SINC Sites and student assistant for CELT. 
+
+Cindy greatly enjoyed the WiCS mentoring program. She said she would’ve never gotten out of her comfort zone and run for treasurer without the encouragement of her mentor. Cindy is also a member of SWE and a part of the WISE SLC. 
+
+Cindy is a cat person and hopes to adopt either a Javanese or Siberian cat after she gets an apartment of her own. She is also taking SPN 111 and MUS 122 to pursue her other interests - learning Spanish and the piano."
+        style="width:100%;max-width:300px">
+
+    <img id="kayla" src="https://media.discordapp.net/attachments/754473898153607242/876641513185116200/wics_kayla.png"
+        alt="Kayla Fang is a sophomore majoring in Computer Science and minoring in Digital Arts.  She is part of the WISE honors program and the computer science departmental honors program.  Kayla interned at HKP Solutions, Sparks Within Reach, and Cultured Kids Cuisine.
+
+For extracurriculars, Kayla joined WiCS and the Stony Brook Robotics Team (SBRT) during her freshman year. She really enjoyed her experience here at WiCS and is extremely excited to be a part of the eboard this year!
+
+In her free time, she likes to read, journal, and cook.  Kayla also loves spending time with friends and family. 
+
+Favorite ice cream flavor: Vanilla" style="width:100%;max-width:300px">
+    <img id="jendy" src="https://media.discordapp.net/attachments/754473898153607242/879218507563274240/wics_jendy.png"
+    alt="Sammi is a sophomore majoring in computer science with a passion for empowering women in the STEM field . During her freshman year she worked as an Android Frontend Intern at HKP Solutions :computer:. She is also a part of the Tech Business and Development VIP team here at Stony :nerd:. Over the summer she worked at Techie Youth and learned a bit of web dev. Sammi loved WiCS game nights because it allowed her to meet and bond with new people :women_with_bunny_ears_partying:
+
+    Sammi has been a part of WiCS for a year. This will be her first year being on e-board. She is extremely excited for what may come this academic year at WiCS. Sammi is constantly listening to music :notes:. You can probably find her asleep listening to songs. Despite this she can’t remember the titles of any songs for the life of her. She also has a hobby of editing videos and collecting stationary :pencil2:. During her free time she is probably spending time with friends, scrolling through tiktok, or not watching the shows shes been recommended."
+    style="width:100%;max-width:300px">
+
+    <img id="sammi" src="https://media.discordapp.net/attachments/754473898153607242/876937454362431549/wics_sammi.png"
+        alt="Sammi is a sophomore majoring in computer science with a passion for empowering women in the STEM field . During her freshman year she worked as an Android Frontend Intern at HKP Solutions :computer:. She is also a part of the Tech Business and Development VIP team here at Stony :nerd:. Over the summer she worked at Techie Youth and learned a bit of web dev. Sammi loved WiCS game nights because it allowed her to meet and bond with new people :women_with_bunny_ears_partying:
+
+Sammi has been a part of WiCS for a year. This will be her first year being on e-board. She is extremely excited for what may come this academic year at WiCS. Sammi is constantly listening to music :notes:. You can probably find her asleep listening to songs. Despite this she can’t remember the titles of any songs for the life of her. She also has a hobby of editing videos and collecting stationary :pencil2:. During her free time she is probably spending time with friends, scrolling through tiktok, or not watching the shows shes been recommended."
+        style="width:100%;max-width:300px">
+
+    <img id="ashley"
+        src="https://media.discordapp.net/attachments/754473898153607242/877329731954028624/wics_ashley.png"
+        alt="Sammi is a sophomore majoring in computer science with a passion for empowering women in the STEM field . During her freshman year she worked as an Android Frontend Intern at HKP Solutions :computer:. She is also a part of the Tech Business and Development VIP team here at Stony :nerd:. Over the summer she worked at Techie Youth and learned a bit of web dev. Sammi loved WiCS game nights because it allowed her to meet and bond with new people :women_with_bunny_ears_partying:
+
+Sammi has been a part of WiCS for a year. This will be her first year being on e-board. She is extremely excited for what may come this academic year at WiCS. Sammi is constantly listening to music :notes:. You can probably find her asleep listening to songs. Despite this she can’t remember the titles of any songs for the life of her. She also has a hobby of editing videos and collecting stationary :pencil2:. During her free time she is probably spending time with friends, scrolling through tiktok, or not watching the shows shes been recommended."
+        style="width:100%;max-width:300px">
+
+    <img id="tina" src="https://media.discordapp.net/attachments/754473898153607242/877653804064075856/wics_tina.png"
+        alt="Sammi is a sophomore majoring in computer science with a passion for empowering women in the STEM field . During her freshman year she worked as an Android Frontend Intern at HKP Solutions :computer:. She is also a part of the Tech Business and Development VIP team here at Stony :nerd:. Over the summer she worked at Techie Youth and learned a bit of web dev. Sammi loved WiCS game nights because it allowed her to meet and bond with new people :women_with_bunny_ears_partying:
+
+Sammi has been a part of WiCS for a year. This will be her first year being on e-board. She is extremely excited for what may come this academic year at WiCS. Sammi is constantly listening to music :notes:. You can probably find her asleep listening to songs. Despite this she can’t remember the titles of any songs for the life of her. She also has a hobby of editing videos and collecting stationary :pencil2:. During her free time she is probably spending time with friends, scrolling through tiktok, or not watching the shows shes been recommended."
+        style="width:100%;max-width:300px">
+
+    <img id="christina"
+        src="https://media.discordapp.net/attachments/754473898153607242/878069418075250718/wics_christina.png"
+        alt="Sammi is a sophomore majoring in computer science with a passion for empowering women in the STEM field . During her freshman year she worked as an Android Frontend Intern at HKP Solutions :computer:. She is also a part of the Tech Business and Development VIP team here at Stony :nerd:. Over the summer she worked at Techie Youth and learned a bit of web dev. Sammi loved WiCS game nights because it allowed her to meet and bond with new people :women_with_bunny_ears_partying:
+
+Sammi has been a part of WiCS for a year. This will be her first year being on e-board. She is extremely excited for what may come this academic year at WiCS. Sammi is constantly listening to music :notes:. You can probably find her asleep listening to songs. Despite this she can’t remember the titles of any songs for the life of her. She also has a hobby of editing videos and collecting stationary :pencil2:. During her free time she is probably spending time with friends, scrolling through tiktok, or not watching the shows shes been recommended."
+        style="width:100%;max-width:300px">
+
+    <img id="sabrina"
+        src="https://media.discordapp.net/attachments/754473898153607242/878408702279946300/wics_sabrina.png"
+        alt="Sammi is a sophomore majoring in computer science with a passion for empowering women in the STEM field . During her freshman year she worked as an Android Frontend Intern at HKP Solutions :computer:. She is also a part of the Tech Business and Development VIP team here at Stony :nerd:. Over the summer she worked at Techie Youth and learned a bit of web dev. Sammi loved WiCS game nights because it allowed her to meet and bond with new people :women_with_bunny_ears_partying:
+
+Sammi has been a part of WiCS for a year. This will be her first year being on e-board. She is extremely excited for what may come this academic year at WiCS. Sammi is constantly listening to music :notes:. You can probably find her asleep listening to songs. Despite this she can’t remember the titles of any songs for the life of her. She also has a hobby of editing videos and collecting stationary :pencil2:. During her free time she is probably spending time with friends, scrolling through tiktok, or not watching the shows shes been recommended."
+        style="width:100%;max-width:300px">
+
+    <img id="jenny" src="https://media.discordapp.net/attachments/754473898153607242/879067562044948560/wics_jenny.png"
+        alt="Sammi is a sophomore majoring in computer science with a passion for empowering women in the STEM field . During her freshman year she worked as an Android Frontend Intern at HKP Solutions :computer:. She is also a part of the Tech Business and Development VIP team here at Stony :nerd:. Over the summer she worked at Techie Youth and learned a bit of web dev. Sammi loved WiCS game nights because it allowed her to meet and bond with new people :women_with_bunny_ears_partying:
+
+Sammi has been a part of WiCS for a year. This will be her first year being on e-board. She is extremely excited for what may come this academic year at WiCS. Sammi is constantly listening to music :notes:. You can probably find her asleep listening to songs. Despite this she can’t remember the titles of any songs for the life of her. She also has a hobby of editing videos and collecting stationary :pencil2:. During her free time she is probably spending time with friends, scrolling through tiktok, or not watching the shows shes been recommended."
+        style="width:100%;max-width:300px">
+
+    </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
+
+
+        <img src="/images/global/upDivider.png" alt="divider" class="divider-img">
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="sec info">
+                    <img src="/images/global/largeLogo.png" alt="WiCS logo" class="footer-logo">
+                    <h5>Women in Computer Science</h5>
+                    <h6>Stony Brook University</h6>
+                    <ul class="sci">
+						<li><a href="https://www.facebook.com/groups/2221893523/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.instagram.com/sbu_wics/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/groups/8543587/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li><a href="http://www.eepurl.com/bekY9L" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quickLinks">
+                    <h5>Navigation</h5>
+                    <ul>
+						<li><a href="/pages/events.html">Events</a></li>
+						<li><a href="/pages/team.html">Team</a></li>
+						<li><a href="/pages/sponsors.html">Sponsors</a></li>
+						<li><a href="/pages/blog.html">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="sec contact">
+                    <h5>Contact Info</h5>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <span>647 Linda Street <br> 
+                            Phoenixville, PA19460, <br> USA</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+							<span><a href="mailto:wics@cs.stonybrook.edu">wics@cs.stonybrook.edu</a></span>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var cindy = document.getElementById("cindy");
+        cindy.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        var kayla = document.getElementById("kayla");
+        kayla.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        var sammi = document.getElementById("sammi");
+        sammi.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        var ashley = document.getElementById("ashley");
+        ashley.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        var tina = document.getElementById("tina");
+        tina.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        var christina = document.getElementById("christina");
+        christina.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        var sabrina = document.getElementById("sabrina");
+        sabrina.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        var jenny = document.getElementById("jenny");
+        jenny.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        var jendy = document.getElementById("jendy");
+        jendy.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>

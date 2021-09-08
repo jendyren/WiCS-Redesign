@@ -1,0 +1,26 @@
+.post-top{
+    background: var(--blue);
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.post-top h3{
+    color: var(--white);
+    margin: 0;
+    text-align: center;
+}
+
+.post-content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.eboard-content{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.eboard-content h3, p{
+    margin: 0;
+}
