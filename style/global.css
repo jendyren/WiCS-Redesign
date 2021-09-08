@@ -166,7 +166,7 @@ footer .container h6{
 }
 
 .sci li a:hover{
-    background: var(--white);
+    background: var(--darkblue);
 }
 
 .sci li a .fa{
@@ -219,7 +219,7 @@ footer .container h6{
 }
 
 .contact .info li span a{
-    color: var(--black);
+    color: var(--blue);
     text-decoration: none;
 }
 
@@ -230,6 +230,7 @@ footer .container h6{
 .footer-logo{
     width: 150px;
 }
+
 
 @media (max-width: 991px){
     footer{
