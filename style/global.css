@@ -123,6 +123,7 @@ footer .container h5{
     position: relative;
     color: var(--black);
     font-weight: 600;
+    margin-top: 0;
     margin-bottom: 15px;
 }
 
@@ -140,6 +141,16 @@ footer .container h6{
     color: var(--black);
     font-weight: 500;
     margin-bottom: 15px;
+}
+
+.fa-discord{
+    text-decoration: none;
+    font-size:20px;
+}
+
+.fa-discord:before, 
+.fa-discord:after{
+    color: white;
 }
 
 .sci{
