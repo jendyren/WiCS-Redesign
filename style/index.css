@@ -106,6 +106,8 @@ clear: both;
 .ct-blog-content {
   display: table;
   padding: 30px 0 28px;
+  width: 100%;
+  overflow: hidden;
   background-color: var(--white);
 }
 .ct-blog-content .ct-blog-date {

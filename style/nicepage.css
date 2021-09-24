@@ -17036,14 +17036,14 @@ html {
 }
 .u-body h1,
 .u-body h2,
-.u-body h3,
+/* .u-body h3, */
 .u-body h4,
 .u-body h5{
   padding: 0;
 }
 h1,
 h2,
-h3,
+/* h3, */
 h4,
 h5{
   margin-top: 0;
@@ -17058,9 +17058,9 @@ h1 {
 h2 {
   font-size: 1.5rem;
 }
-h3 {
+/* h3 {
   font-size: 1.25rem;
-}
+} */
 h4 {
   font-size: 1.25rem;
 }
@@ -34195,14 +34195,14 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         }
-        h1:not(.u-title)
+        /* h1:not(.u-title)
         {
         font-weight: 400;
         font-size: 3rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
-        }
+        } */
         h2:not(.u-subtitle)
         {
         font-weight: 400;
@@ -34211,14 +34211,14 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         }
-        h3
+        /* h3
         {
         font-weight: 400;
         font-size: 1.875rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
-        }
+        } */
         h4
         {
         font-weight: 400;
