@@ -24,3 +24,8 @@
 .eboard-content h3, p{
     margin: 0;
 }
+
+.wicsInvolvementImages img{
+    border-radius: 25px;
+    margin: 20px;
+}
