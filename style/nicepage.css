@@ -12587,7 +12587,7 @@ section.u-image,
   margin: 0px;
 }
 .u-gutter-0 .u-layout .u-layout-cell {
-  border-radius: 25px 0 0 25px;
+  border-radius: 25px;
   border: 0px solid transparent;
 }
 .u-gutter-0.u-layout-spacing-top {

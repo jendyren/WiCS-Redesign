@@ -1,0 +1,95 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 1150px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 71px;
+  margin-bottom: 8px;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 452px;
+  background-image: url("/images/2021-2022/recentNews/Mentoring_Program.png");
+  background-position: 50% 61.37%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 601px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 0 30px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 500;
+  margin: 23px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 7px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 31px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1014px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 373px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 496px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 976px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 286px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    min-height: 215px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    min-height: 135px;
+  }
+}
