@@ -1,3 +1,20 @@
+.wicsters-button{
+  text-align: center;
+}
+
+.wicsters-button a{
+  color: var(--blue);
+  font-size: 24px;
+  transition: all 0.2s ease-in-out 0s;
+  font-weight:700;
+  text-decoration: none;
+}
+
+.wicsters-button a:hover{
+  color: var(--darkblue);
+}
+
+
 .u-section-1 {
     background-image: none;
     margin-top: 20px;

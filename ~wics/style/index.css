@@ -66,9 +66,9 @@ clear: both;
   margin-bottom: 30px;
 }
 .annoucements .news-title {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    color: var(--blue);
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: var(--blue);
 }
 .annoucements .row {
   display: flex;
@@ -78,27 +78,41 @@ clear: both;
 }
 .annoucements .ct-blog {
   margin-bottom: 30px;
+  
 }
 .ct-blog .inner {
-  background-color: var(--blue);
-  padding: 10px;
+  background-color: #ffffff;
   transition: all 0.2s ease-in-out 0s;
   cursor: pointer;
   height: 100%;
-  border-radius: 10px
+  border-radius: 10px;
+  border-color: var(--blue);
+  border-width: 9px;
+  border-style: solid;
+}
+
+.ct-blog .inner:hover {
+  top: calc( 50% - 2px );
+  border: 9px solid var(--blue);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.315), 0 0 5px var(--darkblue);
+  cursor: pointer;
+}
+
+.ct-blog .inner:active{
+  top: 50%;
+  box-shadow: 0 5px 10px var(--darkblue), 0 0 2px var(--darkblue);
+  transition: ease-in-out .1s;
 }
 
 .ct-blog .inner a{
   text-decoration: none;
 }
 
-.ct-blog .inner:hover {
-  background-color: var(--darkblue);
-}
+
 .ct-blog .fauxcrop {
   height: 180px;
   overflow: hidden;
-  border-radius: 5px
+
 }
 .ct-blog .fauxcrop img {
   width: 100%;
@@ -146,12 +160,12 @@ clear: both;
   text-align: center;
 }
 .btn-news.btn-contests a {
-  color: #5e75b1;
+  color: var(--blue);
   font-size: 24px;
   transition: all 0.2s ease-in-out 0s;
 }
 .btn-news.btn-contests a:hover {
-  color: var(--black);
+  color: var(--darkblue);
 }
 /* Annoucements */
 
@@ -204,10 +218,13 @@ clear: both;
 
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .column {
-      width: 100%;
+    width: 100%;
   }
+  .ct-blog-content {
+    height: 9em;
+}
 }
 
 /*Content CSS*/
