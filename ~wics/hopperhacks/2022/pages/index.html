@@ -1,22 +1,933 @@
 <!DOCTYPE html>
 <html>
-    <head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link href="/~wics/style/global.css" rel="stylesheet" type="text/css"/>
-		<link rel="stylesheet" href="/~wics/style/nicepage.css" media="screen">
-    	<link rel="stylesheet" href="/~wics/hopperhacks/2022/style/index.css" media="screen">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-         <script src="https://kit.fontawesome.com/844188e456.js" crossorigin="anonymous"></script>
-		<title>SBU - WiCS</title>
-	</head>
-    <body>
-        <img src="/~wics/hopperhacks/2022/images/InTheMaking.png" class="bg">
-    </body>
 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>HopperHacks</title>
+	<link href="/~wics/hopperhacks/2022/style/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<img class="clouds-bg" src="/~wics/hopperhacks/2022/images/bg_2.svg">
+	<div id="cover" class="section">
+		<div class="content">
+			<div id="cover-desktop">
+				<div class="navbar-wrap">
+					<div class="navbar">
+						<a href="#about" class="navbar-btn">
+						<h4 class="navbar-txt">ABOUT</h4>
+						</a>
+						<a href="#logistics" class="navbar-btn">
+						<h4 class="navbar-txt">LOGISTICS</h4>
+						</a>
+						<a href="#faq" class="navbar-btn">
+						<h4 class="navbar-txt">FAQ</h4>
+						</a>
+						<a href="#sponsors" class="navbar-btn">
+						<h4 class="navbar-txt">SPONSORS</h4>
+						</a>
+						<a
+						href="https://bit.ly/hh22-register"
+						target="_blank"
+						class="navbar-btn apply hidden-mobile"
+						>
+						<h4 class="navbar-txt no-underline">APPLY</h4>
+						</a>
+					</div>
+				</div>
+				<div id="page-title">
+					<img
+						id="title-header"
+						src="/~wics/hopperhacks/2022/images/title.svg"
+						/>
+				</div>
+				<div id="date-desktop">
+					<div class="rectangle">
+						JOIN US ON SATURDAY, FEBRUARY 12!
+					</div>
+				</div>
+				<div id="logo-desktop">
+					<img
+						id="hopper"
+						src="/~wics/hopperhacks/2022/images/hopper.svg"
+					/>
+				</div>
+
+			</div>
+			<div id="cover-mobile">
+				<div class="menu">
+					<button
+						id="menu-btn"
+						class="hamburger hamburger--collapse"
+						type="button"
+						>
+					<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+					</span>
+					</button>
+					<div id="menu-items" class="navbar">
+						<div class="menu-row">
+							<a href="#about" class="navbar-btn">
+								<h4 class="navbar-txt">ABOUT</h4>
+							</a>
+							<a href="#logistics" class="navbar-btn">
+								<h4 class="navbar-txt">LOGISTICS</h4>
+							</a>
+						</div>
+						<div class="menu-row">
+							<a href="#faq" class="navbar-btn">
+								<h4 class="navbar-txt">FAQ</h4>
+							</a>
+							<a href="#sponsors" class="navbar-btn">
+								<h4 class="navbar-txt">SPONSORS</h4>
+							</a>
+						</div>
+
+					</div>
+				</div>
+				<img
+					id="logo-mobile"
+					src="/~wics/hopperhacks/2022/images/hopper.svg"
+					/>
+				<div id="page-title">
+					<img
+						id="title-header"
+						src="/~wics/hopperhacks/2022/images/title.svg"
+						/>
+				</div>
+				<div id="date-mobile">
+					<h1>FEBRUARY 12, 2022</h1>
+				</div>
+				<a
+					href="https://bit.ly/hh22-register"
+					target="_blank"
+					class="navbar-btn apply hidden-mobile"
+					>
+					<h4 class="navbar-txt no-underline">APPLY</h4>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div id="about" class="section">
+		<h1 class="header" id="about-header">ABOUT</h1>
+		<div class="about-wrap">
+			<!---info--->
+			<div class="info-wrap">
+				<div class="info">
+					Women in Computer Science (WiCS) at Stony Brook University is proud to present its 7th annual hackathon, now held in a hybrid environment. HopperHacks is a 12-hour social good-themed hackathon that welcomes all students and is devoted to being inclusive and beginner-friendly.
+					
+					<br><br>
+					Regardless of major or gender, we welcome you to join us in making an impact 
+					in the community with your creativity and imagination!
+					
+					We aim to provide a safe and comfortable environment for undergraduate and graduate students of any background and skill level to participate in. 
+				</div>
+			</div>
+		</div>
+    </div>
+	<div id="logistics" class="section">
+        <h1 class="header" id="logistics-header">LOGISTICS</h1>
+        <div class="content">
+            <div class="logistic-row">
+               <div class="logistic-div" id="involved">
+                  	<img
+						class="logistic-image"
+						src="/~wics/hopperhacks/2022/images/getInvolved.svg"
+                     />
+					<p>
+						Check out the ways in which you can get involved with HopperHacks!
+					</p>
+               </div>
+            </div>
+            <div class="logistic-row" id="logistic-row-2">
+               <div class="logistic-div" id="prize">
+					<img
+					class="logistic-image"
+					src="/~wics/hopperhacks/2022/images/prizes.svg"
+					/>
+					<p>
+						Learn more about our prize categories and free swag!
+					</p>
+               </div>
+               <div class="logistic-div" id="schedule">
+					<img
+					class="logistic-image"
+					src="/~wics/hopperhacks/2022/images/schedule.svg"
+					/>
+					<p>
+						Check out some of the amazing events scheduled!
+					</p>
+               </div>
+            </div>
+            <!-- mobile logistics -->
+            <div id="logistics-mobile-div">
+               <div class="logistic-div" id="involved-mobile">
+					<img
+						class="logistic-image"
+						src="/~wics/hopperhacks/2022/images/getInvolved.svg"
+					/>
+               </div>
+               <div class="logistic-div" id="prize-mobile">
+                  <div class="logistic-image">
+					<img
+						class="logistic-image"
+						src="/~wics/hopperhacks/2022/images/prizes.svg"
+					/>
+                  </div>
+               </div>
+               <div class="logistic-div" id="schedule-mobile">
+					<img
+						class="logistic-image"
+						src="/~wics/hopperhacks/2022/images/schedule.svg"
+					/>
+               </div>
+            </div>
+        </div>
+      
+      <!-- desktop modals -->
+		<!-- Involved desktop -->
+		<div class="modal" id="involved-modal" style="display: none">
+			<div class="modal-content">
+				<div class="modal-text-container">
+					<div class="modal-header">
+					<div class="top-modal">
+						<img
+							class="modal-rock-2"
+							src="./assets/logistics/light/modal_rock2.svg"
+							data-dark-src="./assets/logistics/dark/dark_popuprock2.svg"
+							/>
+						<div class="title-nav-container">
+							<h1 class="modal-title">GET INVOLVED</h1>
+							<div id="involved-nav" class="modal-navbar">
+								<a class="navbar-btn">
+								<h4 class="navbar-txt-logistic" id="involved-column1">
+									HACK
+								</h4>
+								</a>
+								<a class="navbar-btn">
+								<h4 class="navbar-txt-logistic" id="involved-column2">
+									VOLUNTEER
+								</h4>
+								</a>
+								<a class="navbar-btn">
+								<h4 class="navbar-txt-logistic" id="involved-column3">
+									MENTOR
+								</h4>
+								</a>
+							</div>
+						</div>
+						<div class="close-container">
+							<span class="close">&times;</span>
+						</div>
+					</div>
+					</div>
+					<div class="modal-info">
+					<div
+						class="logistic-column1 modal-hidden"
+						id="involved-column1-text"
+						>
+						<p>
+							Create projects that can inspire and create change toward problems in our world. Get involved with HopperHacks by participating as a Hacker! To register you must fill out this 
+							<a href="https://bit.ly/hh22-register" target="_blank">form</a>. 
+							
+							<br><br>
+							Stony Brook University students are welcome to hack in person at the Stony Brook Union Ballroom, where you will be able to collaborate with one another face to face and attend some in-person activities. Food will also be provided. 
+							<br><br>
+							If you would like to hack virtually, you can do that too! Mentors, volunteers, and attendees will all be on Discord, and judging and most workshops will also be virtual. Details are subject to change based on the state of the ongoing COVID-19 pandemic.
+							<br><br>
+							If you have registered and are no longer able to attend, please let us know by emailing us at: wics@cs.stonybrook.edu
+						</p>
+					</div>
+					<div
+						class="logistic-column2 modal-hidden"
+						id="involved-column2-text"
+						style="display: none"
+						>
+						<p>
+							We are currently seeking volunteers to help hackers at HopperHacks 2022! Volunteers will help food setup, monitor chat, assist workshops, etc. 
+							
+							<br><br>
+							All times mentioned in this for is in EST. To volunteer you must fill out this 
+							<a href="https://bit.ly/hh22-volunteer" target="_blank">form</a>.
+
+							<br><br>
+							Volunteer Positions:
+							<ul>
+								<li>
+									Registration: Sign in registered attendees
+								</li>
+								<li>
+									Activity Helpers: Monitor the workshop/activity and assist workshop/activity teacher if needed  
+								</li>
+								<li>
+									Discord Monitors: Help attendees, company reps on Discord by answering their questions and directing them to channels
+								</li>
+								<li>
+									Judge Helpers: Direct judges to the appropriate Discord channels
+								</li>
+							</ul>
+							<br><br>
+							*Note: You do not need to be present for the entire duration of the event*
+						</p>
+
+					</div>
+					<div
+						class="logistic-column3 modal-hidden"
+						id="involved-column3-text"
+						style="display: none"
+						>
+						<p>
+							We are currently seeking mentors to help hackers at HopperHacks 2022!
+							Mentors will be available to help with coding questions and hackers' projects during the day of the hackathon. This involves being active on discord or being present in person to help anyone who needs it.
+							<br><br>
+							 To mentor you must fill out this 
+							<a href="https://bit.ly/hh22-mentor" target="_blank">form</a>.
+							<br><br>
+							*Note: You do not need to be present for the entire duration of the event*
+						</p>
+
+					</div>
+					</div>
+				</div>
+				<div class="modal-rock-container">
+					<img
+					class="modal-rock-1"
+					src="./assets/logistics/light/modal_rock1.svg"
+					data-dark-src="./assets/logistics/dark/dark_popuprock1.svg"
+					/>
+				</div>
+			</div>
+		</div>
+		<!-- prizes desktop -->
+		<div class="modal" id="prize-modal" style="display: none">
+			<div class="modal-content">
+				<div class="modal-text-container">
+					<div class="modal-header">
+					<div class="top-modal">
+						<img
+							class="modal-rock-2"
+							src="./assets/logistics/light/modal_rock2.svg"
+							data-dark-src="./assets/logistics/dark/dark_popuprock2.svg"
+							/>
+						<div class="title-nav-container">
+							<h1 class="modal-title">PRIZES & MORE</h1>
+							<div id="prize-nav" class="modal-navbar">
+								<a class="navbar-btn">
+								<h4 class="navbar-txt-logistic" id="prize-column1">
+									PRIZE CATEGORIES
+								</h4>
+								</a>
+								<a class="navbar-btn">
+								<h4 class="navbar-txt-logistic" id="prize-column2">
+									FREE SWAG
+								</h4>
+								</a>
+								<a class="navbar-btn">
+								<h4 class="navbar-txt-logistic" id="prize-column3">
+									UPDATES
+								</h4>
+								</a>
+							</div>
+						</div>
+						<div class="close-container">
+							<span class="close">&times;</span>
+						</div>
+					</div>
+					</div>
+					<div class="modal-info">
+					<div
+						class="logistic-column1 modal-hidden"
+						id="prize-column1-text"
+						>
+						<ul>
+							<li>
+								<b>Best Beginner Hack:</b>
+								Is this your first time attending a hackathon or creating a hack? If at least half of the team are first-time hackers, we encourage you to submit your creations!
+							</li>
+							<li>
+								<b>Best Health Hack:</b>
+								This award will be given to the best healthcare hack. This category is open, so we encourage you to use your imagination to develop anything related to medicine, physical and/or mental health, or even the repercussions of the COVID-19 pandemic.
+							</li>
+							<li>
+								<b>Best Environmental Hack:</b>
+								This award will be given to the best environment hack. This category is open, so we encourage you to use your imagination to develop anything ranging from sustainability efforts to wildlife conservation!
+							</li>
+							<li>
+								<b>Best Diversity & Inclusion Hack:</b>
+								WiCS is an organization whose mission is to foster diversity and inclusion and provide support to women in the field of computing. This award will be given to the team with the hack that best promotes our mission.
+							</li>
+							<li>
+								<b>Best Overall Hack:</b>
+								This award will be given to the team with the most innovative, functional, and well-designed hack.
+							</li>
+							<li>
+								<b>Best Overall Hack - Runner Up:</b>
+								This award will be given to the team with the second most innovative,functional, and well-designed hack.
+							</li>
+						</ul>
+					</div>
+					<div
+						class="logistic-column2 modal-hidden"
+						id="prize-column2-text"
+						style="display: none"
+						>
+						<ul>
+							<li>
+								<b>Drawing Competiton:</b>
+								Interested in a winning an award by submitting an art piece? Check back later for more information!
+							</li>
+							<li>
+								<b>Workshop Goodie Bag:</b>
+								Attend over 3 workshops to be eligible for a goodie bag! More information to come.
+							</li>
+						</ul>
+					</div>
+					<div
+						class="logistic-column3 modal-hidden"
+						id="prize-column3-text"
+						style="display: none"
+						>
+						<p>
+							For the most up to date information regarding the prize categories, please check out our devpost here.
+
+							<br><br>
+
+							For the most up to date information regarding free swag, please check in with an eboard member on discord or the #annoucements channel.
+						</p>
+					</div>
+					</div>
+				</div>
+				<div class="modal-rock-container">
+					<img
+					class="modal-rock-1"
+					src="./assets/logistics/light/modal_rock1.svg"
+					data-dark-src="./assets/logistics/dark/dark_popuprock1.svg"
+					/>
+				</div>
+			</div>
+		</div>
+		<!-- schedule desktop -->
+		<div class="modal" id="schedule-modal" style="display: none">
+			<div class="modal-content">
+				<div class="modal-text-container">
+					<div class="modal-header">
+					<div class="top-modal">
+						<img
+							class="modal-rock-2"
+							src="./assets/logistics/light/modal_rock2.svg"
+							data-dark-src="./assets/logistics/dark/dark_popuprock2.svg"
+							/>
+						<div class="title-nav-container">
+							<h1 class="modal-title">SCHEDULE</h1>
+
+							<div id="schedule-nav" class="modal-navbar">
+								<a class="navbar-btn">
+								<h4 class="navbar-txt-logistic" id="schedule-column1">
+									CALENDAR VIEW
+								</h4>
+								</a>
+								<a class="navbar-btn">
+								<h4 class="navbar-txt-logistic" id="schedule-column2">
+									MORE INFORMATION
+								</h4>
+								</a>
+							</div>
+						</div>
+						<div class="close-container">
+							<span class="close">&times;</span>
+						</div>
+					</div>
+					</div>
+					<div class="modal-info">
+						<div
+							class="logistic-column1 modal-hidden"
+							id="schedule-column1-text"
+							>
+							<iframe title="WiCS Event Calendar" src="https://teamup.com/ksrawc9auxrerhu4y9?date=2022-02-12&view=d&lang=en&title=HopperHacks%20Event%20Schedule&tz=America/New_York&showHeader=0&showLogo=0&showSearch=0&showProfileAndInfo=0&showSidepanel=1&showViewSelector=1&showMenu=1&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1" width="100%" height="800px" frameborder="0"></iframe>
+						</div>
+						<div
+							class="logistic-column2 modal-hidden"
+							id="schedule-column2-text"
+							style="display: none"
+							>
+							<p>
+								Check here for a detailed summary of different workshops and events. 
+								<b>Link</b>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-rock-container">
+					<img
+					class="modal-rock-1"
+					src="./assets/logistics/light/modal_rock1.svg"
+					data-dark-src="./assets/logistics/dark/dark_popuprock1.svg"
+					/>
+				</div>
+			</div>
+		</div>
+
+      <!-- mobile modals -->
+		<!-- Involved mobile -->
+        <div class="mobile modal" id="involved-mobile-modal" style="display: none">
+           <div class="modal-content">
+              <img
+                 class="modal-rock-1"
+                 src="./assets/logistics/light/modal_rock1.svg"
+                 />
+              <img
+                 class="modal-rock-2"
+                 src="./assets/logistics/light/modal_rock2.svg"
+                 />
+              <div class="mobile-close">
+                 <span class="close">&times;</span>
+              </div>
+              <div class="mobile-modal-header">
+                 <h1 class="modal-title">GET INVOLVED</h1>
+              </div>
+              <div class="mobile-modal-info">
+                 <div class="modal-section-header">
+                    <h1>Hack</h1>
+                 </div>
+                 <div class="logistic-column1" id="schedule-column1-text">
+					<p>
+						Create projects that can inspire and create change toward problems in our world. Get involved with HopperHacks by participating as a Hacker! To register you must fill out this 
+						<a href="https://bit.ly/hh22-register" target="_blank">form</a>. 
+						
+						<br><br>
+						Stony Brook University students are welcome to hack in person at the Stony Brook Union Ballroom, where you will be able to collaborate with one another face to face and attend some in-person activities. Food will also be provided. 
+						<br><br>
+						If you would like to hack virtually, you can do that too! Mentors, volunteers, and attendees will all be on Discord, and judging and most workshops will also be virtual. Details are subject to change based on the state of the ongoing COVID-19 pandemic.
+						<br><br>
+						If you have registered and are no longer able to attend, please let us know by emailing us at: wics@cs.stonybrook.edu
+					</p>
+                 </div>
+                 <div class="modal-section-header">
+                    <h1>Volunteer</h1>
+                 </div>
+                 <div class="logistic-column2" id="schedule-column2-text">
+					<p>
+						We are currently seeking volunteers to help hackers at HopperHacks 2022! Volunteers will help food setup, monitor chat, assist workshops, etc. 
+						
+						<br><br>
+						All times mentioned in this for is in EST. To volunteer you must fill out this 
+						<a href="https://bit.ly/hh22-volunteer" target="_blank">form</a>.
+
+						<br><br>
+						Volunteer Positions:
+						<ul>
+							<li>
+								Registration: Sign in registered attendees
+							</li>
+							<li>
+								Activity Helpers: Monitor the workshop/activity and assist workshop/activity teacher if needed  
+							</li>
+							<li>
+								Discord Monitors: Help attendees, company reps on Discord by answering their questions and directing them to channels
+							</li>
+							<li>
+								Judge Helpers: Direct judges to the appropriate Discord channels
+							</li>
+						</ul>
+						<br><br>
+						*Note: You do not need to be present for the entire duration of the event*
+					</p>
+                 </div>
+                 <div class="modal-section-header">
+                    <h1>Mentor</h1>
+                 </div>
+                 <div class="logistic-column3" id="schedule-column3-text">
+                    <p>
+						We are currently seeking mentors to help hackers at HopperHacks 2022!
+						Mentors will be available to help with coding questions and hackers' projects during the day of the hackathon. This involves being active on discord or being present in person to help anyone who needs it.
+						<br><br>
+							To mentor you must fill out this 
+						<a href="https://bit.ly/hh22-mentor" target="_blank">form</a>.
+						<br><br>
+						*Note: You do not need to be present for the entire duration of the event*
+					</p>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <!-- Prizes Mobile -->
+        <div class="mobile modal" id="prize-mobile-modal" style="display: none">
+           <div class="modal-content">
+              <img
+                 class="modal-rock-1"
+                 src="./assets/logistics/light/modal_rock1.svg"
+                 />
+              <img
+                 class="modal-rock-2"
+                 src="./assets/logistics/light/modal_rock2.svg"
+                 />
+              <div class="mobile-close">
+                 <span class="close">&times;</span>
+              </div>
+              <div class="mobile-modal-header">
+                 <h1 class="modal-title">PRIZES & MORE</h1>
+              </div>
+              <div class="mobile-modal-info">
+                 <div class="modal-section-header">
+                    <h1>Prize Categories</h1>
+                 </div>
+                 <div class="logistic-column1" id="schedule-column1-text">
+					<ul>
+						<li>
+							<b>Best Beginner Hack:</b>
+							Is this your first time attending a hackathon or creating a hack? If at least half of the team are first-time hackers, we encourage you to submit your creations!
+						</li>
+						<li>
+							<b>Best Health Hack:</b>
+							This award will be given to the best healthcare hack. This category is open, so we encourage you to use your imagination to develop anything related to medicine, physical and/or mental health, or even the repercussions of the COVID-19 pandemic.
+						</li>
+						<li>
+							<b>Best Environmental Hack:</b>
+							This award will be given to the best environment hack. This category is open, so we encourage you to use your imagination to develop anything ranging from sustainability efforts to wildlife conservation!
+						</li>
+						<li>
+							<b>Best Diversity & Inclusion Hack:</b>
+							WiCS is an organization whose mission is to foster diversity and inclusion and provide support to women in the field of computing. This award will be given to the team with the hack that best promotes our mission.
+						</li>
+						<li>
+							<b>Best Overall Hack:</b>
+							This award will be given to the team with the most innovative, functional, and well-designed hack.
+						</li>
+						<li>
+							<b>Best Overall Hack - Runner Up:</b>
+							This award will be given to the team with the second most innovative,functional, and well-designed hack.
+						</li>
+					</ul>
+                 </div>
+                 <div class="modal-section-header">
+                    <h1>Free Swag</h1>
+                 </div>
+                 <div class="logistic-column2" id="schedule-column2-text">
+					<ul>
+						<li>
+							<b>Drawing Competiton:</b>
+							Interested in a winning an award by submitting an art piece? Check back later for more information!
+						</li>
+						<li>
+							<b>Workshop Goodie Bag:</b>
+							Attend over 3 workshops to be eligible for a goodie bag! More information to come.
+						</li>
+					</ul>
+                 </div>
+                 <div class="modal-section-header">
+                    <h1>Updates</h1>
+                 </div>
+                 <div class="logistic-column3" id="schedule-column3-text">
+                    <p>
+						For the most up to date information regarding the prize categories, please check out our devpost here.
+
+						<br><br>
+
+						For the most up to date information regarding free swag, please check in with an eboard member on discord or the #annoucements channel.
+					</p>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <!-- Schedule mobile -->
+        <div class="mobile modal" id="schedule-mobile-modal" style="display: none">
+           <div class="modal-content">
+              <img
+                 class="modal-rock-1"
+                 src="./assets/logistics/light/modal_rock1.svg"
+                 />
+              <img
+                 class="modal-rock-2"
+                 src="./assets/logistics/light/modal_rock2.svg"
+                 />
+              <div class="mobile-close">
+                 <span class="close">&times;</span>
+              </div>
+              <div class="mobile-modal-header">
+                 <h1 class="modal-title">SCHEDULE</h1>
+              </div>
+              <div class="mobile-modal-info">
+                 <div class="modal-section-header">
+                    <h1>Calendar View</h1>
+                 </div>
+                 <div class="logistic-column1" id="schedule-column1-text">
+					<iframe title="WiCS Event Calendar" src="https://teamup.com/ksrawc9auxrerhu4y9?date=2022-02-12&view=d&lang=en&title=HopperHacks%20Event%20Schedule&tz=America/New_York&showHeader=0&showLogo=0&showSearch=0&showProfileAndInfo=0&showSidepanel=1&showViewSelector=1&showMenu=1&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1" width="90%" height="800px" frameborder="0"></iframe>
+                 </div>
+                 <div class="modal-section-header">
+                    <h1>More Information</h1>
+                 </div>
+                 <div class="logistic-column2" id="schedule-column2-text">
+					 Check here for a detailed summary of different workshops and events. 
+					<b>Link</b>
+                 </div>
+                 
+              </div>
+           </div>
+        </div>
+	</div>
+	<div id="faq" class="section">
+		<div class="faq-content">
+		<div class="faq-box">
+			<h1 class="header" id="faq-header">FAQs</h1>	
+			<section class="faq-columns">
+				<div class="column">
+					<h2>GENERAL</h2>
+					<section class="faq-container">
+						<div class="faq-one">
+							<!-- faq question -->
+							<h1 class="faq-page">What is a hackathon?</h1>
+							<!-- faq answer -->
+							<div class="faq-body">
+								<p>
+									A hackathon is a day-long event where attendees can: compete for prize categories, attend workshops, and participate in fun activities and games. Competing is completely optional! You can also choose which workshops/activities you want or don’t want to attend based on your interests.
+								</p>
+							</div>
+						</div>
+						
+						<div class="faq-two">
+							<!-- faq question -->
+							<h1 class="faq-page">Do I need to know how to code?</h1>
+							<!-- faq answer -->
+							<div class="faq-body">
+								<p>
+									Short answer: Nope!
+
+									Long answer: HopperHacks is a beginner-friendly hackathon, so please do not feel as if you need to have any coding experience to participate. If you do not know how to code but want to learn and have fun, we have workshops and activities throughout the event for you to attend.
+
+									We know that hackathons can be intimidating for many first-time hackers, and so we want this to be a learning and fun experience for you to become more comfortable with working with others, developing new skills, and letting your creativity shine under a time constraint.
+								</p>
+							</div>
+						</div>
+						
+						<div class="faq-three">
+							<!-- faq question -->
+							<h1 class="faq-page">
+								What is HopperHacks Bootcamp Week?
+							</h1>
+							<!-- faq answer -->
+							<div class="faq-body">
+								<p>
+									To help students prepare for HopperHacks, we invite WiCS alumni and other industry professionals to host a variety of workshops.
+								</p>
+								<p>
+									This is only open to Stony Brook University students.
+								</p>
+							</div>
+						</div>
+						
+						<div class="faq-four">
+							<!-- faq question -->
+							<h1 class="faq-page">
+								Got more questions?
+							</h1>
+							<!-- faq answer -->
+							<div class="faq-body">
+								<p>
+									If you have anything you want us to know prior to the event, please feel free to email us at wics@cs.stonybrook.edu.
+								</p>
+								<p>
+									If you have any questions or concerns during the event, you can always chat with us in person or in the Discord channel, and we will do our best to help you!
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				
+				<div class="column">
+					<h2>IDEATION & TEAMS</h2>
+					<section class="faq-container">
+						<div class="faq-one">
+							<!-- faq question -->
+							<h1 class="faq-page">How will teams work?</h1>
+							<!-- faq answer -->
+							<div class="faq-body">
+								<p>
+									We typically recommend a team of 3-4 people. You are free to choose whoever is going to be on your team either prior or during the day of the event. You are also free to work on your own.
+								</p>
+								<p>
+									If you are looking for a team, we will have a Discord channel for you to reach out to other participants and form teams that way. We will also have a Team Building Activity on Feb. 12th, specific time TBD.
+								</p>
+								<p>
+									A team should consist of a minimum of 1 person to a maximum of 5 people. Keep in mind if you are in a team of 5, there are only 4 prizes per team.
+								</p>
+							</div>
+						</div>
+						
+						<div class="faq-two">
+							<!-- faq question -->
+							<h1 class="faq-page">How do I come up with an idea for a project?</h1>
+							<!-- faq answer -->
+							<div class="faq-body">
+								<p>
+									Think about what changes you want to bring to the world. Think of any issues you and/or anyone else have faced in the past or are still facing that you want to focus on resolving. You can think of a target audience and a resolution.
+
+									Once you have a target or a goal to achieve, then you can start brainstorming ways you can approach using the resources available.
+								</p>
+							</div>
+						</div>
+						
+						<div class="faq-three">
+							<!-- faq question -->
+							<h1 class="faq-page">Any resources/guidance for beginners?</h1>
+							<!-- faq answer -->
+							<div class="faq-body">
+								<p>
+									In addition to the technical workshops that we are hosting throughout HopperHacks, there are many online resources if you want to learn about programming. These resources include but are not limited to KhanAcademy, W3Schools, and CodeAcademy. If all else fails, there's sure to be something that can help you on google :)
+								</p>
+							</div>
+						</div>
+						
+						<div class="faq-four">
+							<!-- faq question -->
+							<h1 class="faq-page">Who can be in person?</h1>
+							<!-- faq answer -->
+							<div class="faq-body">
+								<p>
+									Currently we strongly suggest only allowing students of Stony Brook University to be allowed to attend in person. Hackers who are interested in coming in person will be given a wrist band on the day of to gain entry.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<div class="column">
+					<h2>REGISTRATION</h2>
+					<section class="faq-container">
+						<div class="faq-one">
+							<!-- faq question -->
+							<h1 class="faq-page">Who can attend?</h1>
+							<!-- faq answer -->
+							<div class="faq-body">
+								<p>
+									We welcome all undergraduate and graduate students, regardless of gender, major and school! Open to coders and designers of all skill levels. Coding experience not required.
+								</p>
+							</div>
+						</div>
+						
+						<div class="faq-two">
+							<!-- faq question -->
+							<h1 class="faq-page">When is the deadline to register?</h1>
+							<!-- faq answer -->
+							<div class="faq-body">
+								<p>
+									February 10th, by 11:59 PM (EST)
+								</p>
+							</div>
+						</div>
+						
+						<div class="faq-three">
+							<!-- faq question -->
+							<h1 class="faq-page">Do I need to create a Devpost Account?</h1>
+							<!-- faq answer -->
+							<div class="faq-body">
+								<p>
+									Yes. You will be expected to submit a project on the Devpost platform which means you are required to create an account.
+								</p>
+							</div>
+						</div>
+						
+						<div class="faq-four">
+							<!-- faq question -->
+							<h1 class="faq-page">Do I have to submit a project to attend?</h1>
+							<!-- faq answer -->
+							<div class="faq-body">
+								<p>
+									Nope! You are free to attend any of our workshop and events if you would so choose to.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</section>	
+		</div>
+		</div>
+	</div>
+	<!-- <img class="clouds-divider" src="/~wics/hopperhacks/2022/images/cloud-divider-2.svg"> -->
+	<div id="sponsors" class="section">
+		<h1 class="header" id="sponsors-header">SPONSORS</h1>
+		<div class="sponsors-wrap">
+			<section class="sponsors-columns">
+				<div class="column">
+					<h2>GOLD</h2>
+					<section class="sponsors-container">
+						<a href="https://www.kitware.com/" target="_blank">
+							<img 
+							src="/~wics/hopperhacks/2022/images/Kitware_Logo.png" style="height:6vw"/>
+						</a>
+						<br><br>
+						<a href="https://www.supplyhouse.com/" target="_blank">
+							<img src="/~wics/hopperhacks/2022/images/supplyhouse_logo.png" style="height:6vw" />
+						</a>
+						<br>
+						<a href="https://www.amazon.com/" target="_blank">
+							<img src="/~wics/hopperhacks/2022/images/Amazon_logo.png" style="height:8vw" />
+						</a>
+					</section>
+				</div>
+				
+				<div class="column">
+					<h2>SILVER</h2>
+					<br>
+					<section class="sponsors-container">
+						<a href="https://www.google.com/" class="silver" target="_blank">
+							<img src="/~wics/hopperhacks/2022/images/Google_Logo.png" style="height:3vw" />
+						</a>
+						<br><br>
+						<a href="https://www.marketaxess.com/" target="_blank">
+							<img src="/~wics/hopperhacks/2022/images/marketaxess-logo.png" style="height:3vw" />
+						</a>
+						<br><br>
+						<a href="https://www.avi.com/" target="_blank">
+							<img src="/~wics/hopperhacks/2022/images/applied_visions_logo.png" style="height:4vw" />
+						</a>
+					</section>
+				</div>
+			</section>
+			<br><br><br><br>	
+			<h2> Interested in sponsoring for HopperHacks 2022? 
+				<br> Email us at wics@cs.stonybrook.edu! </h2>
+		</div>
+	</div>
+	<div id="contact" class="section">
+		<h1 class="header" id="about-header">CATCH <br> YOU <br> THERE!</h1>
+		<div class="rectangle" id="end">
+			JUST A SEC!
+		</div>
+		<div class="socials">
+			<a href="https://discord.gg/pH23QVqUyy" target="_blank">
+				<div class="socials-row">
+					<img src="/~wics/hopperhacks/2022/images/socials/discord.svg">
+					<p> discord.gg/pH23QVqUyy </p>
+				</div>
+			</a>
+			<a href="https://www.instagram.com/sbu_wics" target="_blank">
+				<div class="socials-row">
+					<img src="/~wics/hopperhacks/2022/images/socials/instagram.svg">
+					<p> @sbu_wics </p>
+				</div>
+			</a>
+			<a href="sbuwics.com" target="_blank">
+				<div class="socials-row">
+					<img src="/~wics/hopperhacks/2022/images/socials/website.svg">
+					<p> sbuwics.com </p>
+				</div>
+			</div>
+			<!-- <a href="https://youtube.com/channel/UCq8sgjgu3-9Di0vsYiDgWFw" target="_blank">
+				<div class="socials-row">
+					<img src="/~wics/hopperhacks/2022/images/socials/youtube.svg">
+					<p> youtube.com/channel/UCq8sgjgu3-9Di0vsYiDgWFw </p>
+				</div>
+			</a> -->
+		</div>
+	</div>
+
+	
+
+
+    <script src="/~wics/hopperhacks/2022/scripts/script.js"></script>
+	<script src="/~wics/hopperhacks/2022/scripts/logistics.js"></script>
+  </body>
 </html>
