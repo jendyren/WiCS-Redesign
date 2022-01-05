@@ -323,7 +323,7 @@
   width: 180px;
   height: 180px;
   object-position: 50% 0%;
-  background-image: url("/~wics/images/2021-2022/eboard/JunHoLee.png");
+  background-image: url("/~wics/images/2021-2022/eboard/JunHo_Lee.png");
   background-position: 50% 50%;
   margin: 24px auto 0;
 }
@@ -345,7 +345,7 @@
   width: 180px;
   height: 180px;
   object-position: 50% 0%;
-  background-image: url("/~wics/images/2021-2022/eboard/JahnaviShah.png");
+  background-image: url("/~wics/images/2021-2022/eboard/ChoiYing_Yau.png");
   background-position: 50% 50%;
   margin: 24px auto 0;
 }
@@ -364,6 +364,15 @@
 }
 
 .u-section-2 .u-image-12 {
+  width: 180px;
+  height: 180px;
+  object-position: 50% 0%;
+  background-image: url("/~wics/images/2021-2022/eboard/JahnaviShah.png");
+  background-position: 50% 50%;
+  margin: 24px auto 0;
+}
+
+.u-section-2 .u-image-13 {
   width: 180px;
   height: 180px;
   object-position: 50% 0%;
