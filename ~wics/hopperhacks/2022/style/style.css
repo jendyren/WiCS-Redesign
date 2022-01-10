@@ -1,8 +1,11 @@
 :root {
   --purple: #4f539e;
   --white: #ffffff;
+  --lightblue: #E3FAFF;
+  --blue: #51C7F4;
   --pink: #FA91D4;
   --yellow: #FFF2C7;
+  --darkyellow: #FFDC8F;
   --black: black;
 }
 
@@ -25,6 +28,10 @@
 @font-face {
 	font-family: RubikMono;
 	src: url(/~wics/hopperhacks/2022/fonts/RubikOne/RubikMonoOne-Regular.ttf)
+}
+@font-face {
+	font-family: Lucid;
+	src: url(/~wics/hopperhacks/2022/fonts/Lucidity/Lucid.ttf)
 }
 
 html {
@@ -73,13 +80,13 @@ a:active, a:focus, a:hover, a:link, a:visited {
 
 body h1,
 body h2 {
-	font-family: RubikMono;
+	font-family: Lucid;
 	color: var(--purple);
 }
 
 body h3,
 body h4 {
-	font-family: HeroBold;
+	font-family:'Lexend Deca', sans-serif;
 	color: var(--purple);
 }
 
@@ -96,16 +103,13 @@ body {
 	overflow-x: hidden;
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
-	font-family: Hero;
+	font-family: 'Lexend Deca', sans-serif;
 	width: 100vw;
   	margin: 0;
-	/* background: linear-gradient(to top, #FFBEF5 0%, #C6E5FF 95%) fixed no-repeat; */
-	/* background: rgb(255,190,190);
-	background: linear-gradient(349deg, rgba(255,190,190,1) 0%, rgba(255,190,245,1) 35%, rgba(198,229,255,1) 100%); */
+	background-color: #fde7f9;
+	background-image: linear-gradient(315deg, #fde7f9 0%, #aacaef 74%);	  
 	/* background: rgb(198,229,255);
-	background: linear-gradient(158deg, rgba(198,229,255,1) 0%, rgba(205,198,255,1) 20%, rgba(255,190,245,1) 40%, rgba(255,190,190,1) 60%, rgba(255,190,245,1) 80%, rgba(198,229,255,1) 100%); */
-	background: rgb(198,229,255);
-	background: linear-gradient(170deg, rgba(198,229,255,1) 0%, rgba(255,190,245,1) 15%, rgba(205,198,255,1) 30%, rgba(255,190,245,1) 45%, rgba(255,190,190,1) 60%, rgba(255,190,245,1) 75%, rgba(198,229,255,1) 90%);
+	background: linear-gradient(170deg, rgba(198,229,255,1) 0%, rgba(255,190,245,1) 15%, rgba(205,198,255,1) 30%, rgba(255,190,245,1) 45%, rgba(255,190,190,1) 60%, rgba(255,190,245,1) 75%, rgba(198,229,255,1) 90%); */
 }
 
 body .header#about-header {
@@ -126,9 +130,9 @@ body .header#sponsors-header{
 body .header {
     text-align: center;
     font-size: 5vw;
-    color: var(--yellow);
+    color: var(--purple);
     text-transform: uppercase;
-    -webkit-text-stroke: 1.5px black;
+    /* -webkit-text-stroke: 1.5px black; */
 }
 
 body .header#logistics-header{
@@ -175,13 +179,13 @@ body .header#logistics-header{
 .rectangle#end {
     height: 50px;
     width: 15vw;
-    background-color: var(--pink);
-    color: var(--white);
+    background-color: var(--lightblue);
+    color: var(--blue);
     border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: HeroBold;
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 1.5vw;
     position: relative;
     bottom: 15vw;
@@ -375,13 +379,13 @@ body {
 .rectangle {
   height: 50px;
   width: 35vw;
-  background-color: var(--pink);
-  color: var(--white);
+  background-color: var(--lightblue);
+  color: var(--blue);
   border-radius: 50px;
   display: flex;
   justify-content:center;
   align-items: center;
-  font-family: HeroBold;
+  font-family: 'Lexend Deca', sans-serif;
   font-size: 1.5vw;
 }
 
@@ -1156,7 +1160,7 @@ body .section#faq{
 
 
 #cover #cover-mobile #date-mobile h1{
-	font-family: 'HeroBold';
+	font-family: 'Lexend Deca', sans-serif;
 }
 
 
