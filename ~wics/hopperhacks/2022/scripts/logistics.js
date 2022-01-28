@@ -1,3 +1,6 @@
+//Copyright © 2021 HackMIT
+//https://hackmit.org/
+
 let involved = document.getElementById("involved");
 let prize = document.getElementById("prize");
 let schedule = document.getElementById("schedule");
